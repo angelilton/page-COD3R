@@ -1,0 +1,111 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 200;
+}
+html, body{
+    overflow-x: hidden;
+}
+body{
+    padding-top: 70px;
+}
+.navbar-custom{
+    background: #ffffff;
+    height: 80px;
+}
+
+.navbar-custom ul{
+    margin-top: 23px;
+    color: #FFFFFF;
+}
+
+.navbar-custom ul li a{
+    text-align: center;
+    height: 40px;
+    color: #000000;
+    font-size: 17px;
+     margin-right: 7px;
+     padding-top: 10px; 
+}
+
+ .navbar-custom ul li a:hover{
+    background:#FFFFFF;
+}
+#btn-entrar{
+    color: #FFFFFF;
+    background: #227EB6;    
+    
+}
+#btn-registrar{
+    color: #FFFFFF;
+    background: #E25D5D;
+}
+#btn-entrar:hover{
+    background: #227EB6;
+}
+#btn-registrar:hover{
+    background: #E25D5D;
+} 
+
+.page-title{
+    padding: 10px;
+    background: #5A5A5A;
+    color: #FFFFFF;
+}
+.page-title h3 {
+    padding-left: 55px;
+}
+
+.row{
+    margin-top: 45px;
+}
+
+  .curso-head{
+    width: 270px;
+    height: 240px;
+    text-align: center;
+}  
+.thumbnail img{
+    max-height: 10em;
+    min-height: 10em;
+}
+
+.thumbnail a{
+    color: #000000;
+}
+
+.thumbnail a:hover{
+    text-decoration: none;
+    color: #227EB6;
+}
+
+.curso-footer{
+    background: #F2F2F2;
+     padding: 20px; 
+}
+    
+.fa-star{
+    color: #F2AA00;
+}
+
+footer{
+     height: 70px; 
+    background: #233239;
+    color: #FFFFFF;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-top: 2px solid rgba(255,255,255,0.2);
+}
+
+footer ul, footer p{
+    padding-top: 10px;
+}
+
+footer a{
+    margin-right: 2px;
+    color: #FFFFFF;
+}
+
+.rodape a:hover{
+    color: #FFFFFF;
+   background: #233239 !important;
+}
